@@ -1,0 +1,168 @@
+[{
+    "Name":"Missy Dubourde",
+    "Age":9,
+    "Color":"yellow",
+    "Height":"4'2\"",
+    "Weight":62,
+    "Hobbies":["swimming", "medicine"],
+    "Birthday":"missyDubourdeBirthday",
+    "Speed":[2,3,4,5,6,6,6,7,7],
+    "Might":[3,2,3,3,3,4,5,6,7],
+    "Sanity":[2,1,2,3,4,5,5,6,7],
+    "Knowledge":[3,2,3,4,4,5,6,6,6]
+},
+
+    {
+        "Name":"Heather Granville",
+        "Age":18,
+        "Color":"purple",
+        "Height":"5'2\"",
+        "Weight":120,
+        "Hobbies":["television", "shopping"],
+        "Birthday":"heatherGranvilleBirthday",
+        "Speed":[2,3,3,4,5,6,6,7,8],
+        "Might":[2,3,3,3,4,5,6,7,8],
+        "Sanity":[2,3,3,3,4,5,6,6,6],
+        "Knowledge":[4,2,3,3,4,5,6,7,8]
+    },
+
+    {
+        "Name":"Peter Akimoto",
+        "Age":13,
+        "Color":"green",
+        "Height":"4'11\"",
+        "Weight":98,
+        "Hobbies":["bugs", "basketball"],
+        "Birthday":"peterAkimotoBirthday",
+        "Speed":[3,3,3,3,4,6,6,7,7],
+        "Might":[2,2,3,3,4,5,5,6,8],
+        "Sanity":[3,3,4,4,4,5,6,6,7],
+        "Knowledge":[2,3,4,4,5,6,7,7,8]
+    },
+
+    {
+        "Name":"Ox Bellows",
+        "Age":23,
+        "Color":"red",
+        "Height":"6'4\"",
+        "Weight":288,
+        "Hobbies":["football", "shinyObjects"],
+        "Birthday":"oxBellowsBirthday",
+        "Speed":[4,2,2,2,3,4,5,5,6],
+        "Might":[2,4,5,5,6,6,7,8,8],
+        "Sanity":[2,2,2,3,4,5,5,6,7],
+        "Knowledge":[2,2,2,3,3,5,5,6,6]
+    },
+
+    {
+        "Name":"Vivian Lopez",
+        "Age":42,
+        "Color":"blue",
+        "Height":"5'5\"",
+        "Weight":142,
+        "Hobbies":["oldMovies", "horses"],
+        "Birthday":"vivianLopezBirthday",
+        "Speed":[3,3,4,4,4,4,6,7,8],
+        "Might":[2,2,2,2,4,4,5,6,6],
+        "Sanity":[2,4,4,4,5,6,7,8,8],
+        "Knowledge":[3,4,5,5,5,5,6,6,7]
+    },
+
+    {
+        "Name":"Professor Longfellow",
+        "Age":57,
+        "Color":"white",
+        "Height":"5'11\"",
+        "Weight":153,
+        "Hobbies":["gaelicMusic", "drama", "fineWines"],
+        "Birthday":"professorLongfellowBirthday",
+        "Speed":[3,2,2,4,4,5,5,6,6],
+        "Might":[2,1,2,3,4,5,5,6,6],
+        "Sanity":[2,1,3,3,4,5,5,6,7],
+        "Knowledge":[4,4,5,5,5,5,6,7,8]
+    },
+
+    {
+        "Name":"Zoe Ingstrom",
+        "Age":8,
+        "Color":"yellow",
+        "Height":"3'9\"",
+        "Weight":49,
+        "Hobbies":["dolly", "music"],
+        "Birthday":"zoeIngstromBirthday",
+        "Speed":[3,4,4,4,4,5,6,8,8],
+        "Might":[3,2,2,3,3,4,4,6,7],
+        "Sanity":[2,3,4,5,5,6,6,7,8],
+        "Knowledge":[2,1,2,3,4,4,5,5,5]
+    },
+
+    {
+        "Name":"Jenny LeClerc",
+        "Age":21,
+        "Color":"purple",
+        "Height":"5'7\"",
+        "Weight":142,
+        "Hobbies":["reading", "soccer"],
+        "Birthday":"jennyLeClercBirthday",
+        "Speed":[3,2,3,4,4,4,5,6,8],
+        "Might":[2,3,4,4,4,4,5,6,8],
+        "Sanity":[4,1,1,2,4,4,4,5,6],
+        "Knowledge":[2,2,3,3,4,4,5,6,8]
+    },
+
+    {
+        "Name":"Brandon Jaspers",
+        "Age":12,
+        "Color":"green",
+        "Height":"5'11\"",
+        "Weight":109,
+        "Hobbies":["computers", "camping", "hockey"],
+        "Birthday":"brandonJaspersBirthday",
+        "Speed":[2,3,4,4,4,5,6,7,8],
+        "Might":[3,2,3,3,4,5,6,6,7],
+        "Sanity":[3,3,3,3,4,5,6,7,8],
+        "Knowledge":[2,1,3,3,5,5,6,6,7]
+    },
+
+    {
+        "Name":"Darrin \"Flash\" Williams",
+        "Age":20,
+        "Color":"red",
+        "Height":"5'11\"",
+        "Weight":188,
+        "Hobbies":["track", "music", "shakespeareanLiterature"],
+        "Birthday":"darrinWilliamsBirthday",
+        "Speed":[4,4,4,4,5,6,7,7,8],
+        "Might":[2,2,3,3,4,5,6,6,7],
+        "Sanity":[2,1,2,3,4,5,5,5,7],
+        "Knowledge":[2,2,3,3,4,5,5,5,7]
+    },
+
+    {
+        "Name":"Madame Zostra",
+        "Age":37,
+        "Color":"blue",
+        "Height":"5'0\"",
+        "Weight":150,
+        "Hobbies":["astrology", "cooking", "baseball"],
+        "Birthday":"madameZostraBirthday",
+        "Speed":[2,2,3,3,5,5,6,6,7],
+        "Might":[3,2,3,3,4,5,5,5,6],
+        "Sanity":[2,4,4,4,5,6,7,8,8],
+        "Knowledge":[3,1,3,4,4,4,5,6,6]
+    },
+
+    {
+        "Name":"Father Rhinehardt",
+        "Age":62,
+        "Color":"white",
+        "Height":"5'9\"",
+        "Weight":185,
+        "Hobbies":["fencing", "gardening"],
+        "Birthday":"fatherRhinehardtBirthday",
+        "Speed":[2,2,3,3,4,5,6,7,7],
+        "Might":[2,1,2,2,4,4,5,5,7],
+        "Sanity":[4,3,4,5,5,6,7,7,8],
+        "Knowledge":[3,1,3,3,4,5,6,6,8]
+    }
+]

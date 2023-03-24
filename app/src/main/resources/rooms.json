@@ -1,0 +1,359 @@
+[
+    {
+        "name": "abandonedRoomName",
+        "id": "abandoned_room",
+        "type": "OMEN",
+        "floors": ["GROUND", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "atticName",
+        "id": "attic",
+        "type": "EVENT",
+        "floors": ["UPPER"],
+        "doors": ["SOUTH"],
+        "text": "atticText"
+    },
+    {
+        "name": "balconyName",
+        "id": "balcony",
+        "type": "OMEN",
+        "floors": ["UPPER"],
+        "doors": ["NORTH", "SOUTH"],
+        "outside": true
+    },
+    {
+        "name": "ballroomName",
+        "id": "ballroom",
+        "type": "EVENT",
+        "floors": ["GROUND"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "basementLandingName",
+        "id": "basement_landing",
+        "type": "LANDING",
+        "floors": ["BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "bedroomName",
+        "id": "bedroom",
+        "type": "EVENT",
+        "floors": ["UPPER"],
+        "doors": ["EAST", "WEST"],
+        "window": true
+    },
+    {
+        "name": "bloodyRoomName",
+        "id": "bloody_room",
+        "type": "ITEM",
+        "floors": ["GROUND", "UPPER"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "catacombsName",
+        "id": "catacombs",
+        "type": "OMEN",
+        "floors": ["BASEMENT"],
+        "doors": ["NORTH", "SOUTH"],
+        "text": "catacombsText"
+    },
+    {
+        "name": "chapelName",
+        "id": "chapel",
+        "type": "EVENT",
+        "floors": ["GROUND", "UPPER"],
+        "doors": ["NORTH"],
+        "window": true,
+        "text": "chapelText"
+    },
+    {
+        "name": "charredRoomName",
+        "id": "charred_room",
+        "type": "OMEN",
+        "floors": ["GROUND", "UPPER"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "chasmName",
+        "id": "chasm",
+        "type": "NONE",
+        "floors": ["BASEMENT"],
+        "doors": ["EAST", "WEST"],
+        "text": "chasmText"
+    },
+    {
+        "name": "coalChuteName",
+        "id": "coal_chute",
+        "type": "NONE",
+        "floors": ["GROUND"],
+        "doors": ["NORTH"],
+        "portal": "basement_landing",
+        "text": "coalChuteText"
+    },
+    {
+        "name": "collapsedRoomName",
+        "id": "collapsed_room",
+        "type": "NONE",
+        "floors": ["GROUND", "UPPER"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"],
+        "text": "collapsedRoomText"
+    },
+    {
+        "name": "conservatoryName",
+        "id": "conservatory",
+        "type": "EVENT",
+        "floors": ["GROUND", "UPPER"],
+        "doors": ["NORTH"],
+        "outside": true
+    },
+    {
+        "name": "creakyHallwayName",
+        "id": "creaky_hallway",
+        "type": "NONE",
+        "floors": ["GROUND", "UPPER", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "cryptName",
+        "id": "crypt",
+        "type": "EVENT",
+        "floors": ["BASEMENT"],
+        "doors": ["NORTH"],
+        "text": "cryptText"
+    },
+    {
+        "name": "diningRoomName",
+        "id": "dining_room",
+        "type": "OMEN",
+        "floors": ["GROUND"],
+        "doors": ["NORTH", "EAST"],
+        "window": true
+    },
+    {
+        "name": "dustyHallwayName",
+        "id": "dusty_hallway",
+        "type": "NONE",
+        "floors": ["GROUND", "UPPER", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "furnaceRoomName",
+        "id": "furnace_room",
+        "type": "OMEN",
+        "floors": ["BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "WEST"],
+        "text": "furnaceRoomText"
+    },
+    {
+        "name": "entranceHallName",
+        "id": "entrance_hall",
+        "type": "LANDING",
+        "floors": ["GROUND"],
+        "doors": ["NORTH", "SOUTH", "WEST"],
+        "links": ["outside", "foyer"]
+    },
+    {
+        "name": "foyerName",
+        "id": "foyer",
+        "type": "LANDING",
+        "floors": ["GROUND"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"],
+        "links": ["entrance_hall", "grand_staircase", "stairs_from_basement"]
+    },
+    {
+        "name": "grandStaircaseName",
+        "id": "grand_staircase",
+        "type": "LANDING",
+        "floors": ["GROUND"],
+        "doors": ["EAST"],
+        "window": true,
+        "links": ["foyer", "upper_landing"]
+    },
+    {
+        "name": "galleryName",
+        "id": "gallery",
+        "type": "OMEN",
+        "floors": ["UPPER"],
+        "doors": ["NORTH", "SOUTH"],
+        "links": ["ballroom"],
+        "text": "galleryText"
+    },
+    {
+        "name": "gameRoomName",
+        "id": "game_room",
+        "type": "EVENT",
+        "floors": ["GROUND", "UPPER", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "EAST"]
+    },
+    {
+        "name": "gardensName",
+        "id": "gardens",
+        "type": "EVENT",
+        "floors": ["GROUND"],
+        "doors": ["NORTH", "SOUTH"],
+        "outside": true
+    },
+    {
+        "name": "graveyardName",
+        "id": "graveyard",
+        "type": "EVENT",
+        "floors": ["GROUND"],
+        "doors": ["SOUTH"],
+        "outside": true,
+        "text": "graveyardText"
+    },
+    {
+        "name": "gymnasiumName",
+        "id": "gymnasium",
+        "type": "OMEN",
+        "floors": ["UPPER", "BASEMENT"],
+        "doors": ["SOUTH", "EAST"],
+        "text": "gymnasiumText"
+    },
+    {
+        "name": "junkRoomName",
+        "id": "junk_room",
+        "type": "OMEN",
+        "floors": ["GROUND", "UPPER", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"],
+        "text": "junkRoomText"
+    },
+    {
+        "name": "kitchenName",
+        "id": "kitchen",
+        "type": "OMEN",
+        "floors": ["GROUND", "BASEMENT"],
+        "doors": ["NORTH", "EAST"]
+    },
+    {
+        "name": "larderName",
+        "id": "larder",
+        "type": "ITEM",
+        "floors": ["BASEMENT"],
+        "doors": ["NORTH", "SOUTH"],
+        "text": "larderText"
+    },
+    {
+        "name": "libraryName",
+        "id": "library",
+        "type": "EVENT",
+        "floors": ["GROUND", "UPPER"],
+        "doors": ["SOUTH", "WEST"],
+        "text": "libraryText"
+    },
+    {
+        "name": "masterBedroomName",
+        "id": "master_bedroom",
+        "type": "OMEN",
+        "floors": ["UPPER"],
+        "doors": ["NORTH", "WEST"],
+        "window": true
+    },
+    {
+        "name": "operatingLaboratoryName",
+        "id": "operating_laboratory",
+        "type": "EVENT",
+        "floors": ["UPPER", "BASEMENT"],
+        "doors": ["SOUTH", "EAST"]
+    },
+    {
+        "name": "organRoomName",
+        "id": "organ_room",
+        "type": "EVENT",
+        "floors": ["GROUND", "UPPER", "BASEMENT"],
+        "doors": ["SOUTH", "WEST"]
+    },
+    {
+        "name": "patioName",
+        "id": "patio",
+        "type": "EVENT",
+        "floors": ["GROUND"],
+        "doors": ["NORTH", "SOUTH", "EAST"],
+        "outside": true
+    },
+    {
+        "name": "pentagramChamberName",
+        "id": "pentagram_chamber",
+        "type": "OMEN",
+        "floors": ["BASEMENT"],
+        "doors": ["EAST"],
+        "text": "pentagramChamberText"
+    },
+    {
+        "name": "researchLaboratoryName",
+        "id": "research_laboratory",
+        "type": "EVENT",
+        "floors": ["UPPER", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH"]
+    },
+    {
+        "name": "servantsQuartersName",
+        "id": "servants_quarters",
+        "type": "OMEN",
+        "floors": ["UPPER", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"]
+    },
+    {
+        "name": "stairsFromBasementName",
+        "id": "stairs_from_basement",
+        "type": "NONE",
+        "floors": ["BASEMENT"],
+        "doors": ["EAST"],
+        "links": ["foyer", "basement_landing"]
+    },
+    {
+        "name": "statuaryCorridorName",
+        "id": "statuary_corridor",
+        "type": "OMEN",
+        "floors": ["UPPER", "GROUND", "BASEMENT"],
+        "doors": ["NORTH", "SOUTH"]
+    },
+    {
+        "name": "storeroomName",
+        "id": "storeroom",
+        "type": "ITEM",
+        "floors": ["UPPER", "BASEMENT"],
+        "doors": ["NORTH"]
+    },
+    {
+        "name": "towerName",
+        "id": "tower",
+        "type": "EVENT",
+        "floors": ["UPPER"],
+        "doors": ["EAST", "WEST"],
+        "outside": true,
+        "text": "towerText"
+    },
+    {
+        "name": "undergroundLakeName",
+        "id": "underground_lake",
+        "type": "EVENT",
+        "floors": ["BASEMENT"],
+        "doors": ["NORTH", "EAST"]
+    },
+    {
+        "name": "upperLandingName",
+        "id": "upper_landing",
+        "type": "LANDING",
+        "floors": ["UPPER"],
+        "doors": ["NORTH", "SOUTH", "EAST", "WEST"],
+        "links": ["grand_staircase"]
+    },
+    {
+        "name": "vaultName",
+        "id": "vault",
+        "type": "EVENT",
+        "floors": ["UPPER", "BASEMENT"],
+        "doors": ["NORTH"],
+        "text": "vaultText"
+    },
+    {
+        "name": "wineCellarName",
+        "id": "wine_cellar",
+        "type": "ITEM",
+        "floors": ["BASEMENT"],
+        "doors": ["NORTH", "SOUTH"]
+    }
+]

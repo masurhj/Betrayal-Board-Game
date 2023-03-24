@@ -1,0 +1,172 @@
+[
+  {
+    "Name":"medicalKitName",
+    "Header":"medicalKitHeader",
+    "Description":"medicalKitDescription",
+    "Roll_Type": "KNOWLEDGE",
+    "Roll_Value":["0-3","4-5","6-7","8+"],
+    "Roll_Description":["medicalKitRollDescription1", "medicalKitRollDescription2", "medicalKitRollDescription3", "medicalKitRollDescription4"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Might", 1], 4, 5],
+      ["roll", ["statChange", "Might", 1], 6, 7],
+      ["roll", ["statChange", "Speed", 1], 6, 7],
+      ["roll", ["statChange", "Speed", 2], 8],
+      ["roll", ["statChange", "Might", 1], 8]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"dynamiteName",
+    "Header":"dynamiteHeader",
+    "Description":"dynamiteDescription",
+    "Roll_Type": "SPEED",
+    "Roll_Value":["0-4", "5+"],
+    "Roll_Description":["dynamiteRollDescription1", "dynamiteRollDescription2"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Might", 2], 0, 4],
+      ["roll", ["statChange", "Speed", 2], 0, 4]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"pickpocketsGloveName",
+    "Header":"pickpocketsGloveHeader",
+    "Description":"pickpocketsGloveDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [],
+    "Remove_Game_Rules": [["steal"]]
+  },
+  {
+    "Name":"amuletOfTheAgesName",
+    "Header":"amuletOfTheAgesHeader",
+    "Description":"amuletOfTheAgesDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange","Might", 1],
+      ["statChange", "Speed", 1],
+      ["statChange", "Sanity", 1],
+      ["statChange", "Knowledge", 1]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange","Might", -3],
+      ["statChange", "Speed", -3],
+      ["statChange", "Sanity", -3],
+      ["statChange", "Knowledge", -3]
+    ]
+  },
+  {
+    "Name":"healingSalveName",
+    "Header":"healingSalveHeader",
+    "Description":"healingSalveDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["resetStat", "SPEED"],
+      ["resetStat", "MIGHT"]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"idolName",
+    "Header":"idolHeader",
+    "Description":"idolDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Sanity", -1]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"smellingSaltsName",
+    "Header":"smellingSaltsHeader",
+    "Description":"smellingSaltsDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [],
+    "Remove_Game_Rules": [
+      ["resetStat", "Knowledge"]
+    ]
+  },
+  {
+    "Name":"bottleName",
+    "Header":"bottleHeader",
+    "Description":"bottleDescription",
+    "Roll_Type": "THREE",
+    "Roll_Value":["0", "1", "2", "3", "4", "5", "6"],
+    "Roll_Description":["bottleRollDescription1", "bottleRollDescription2", "bottleRollDescription3", "bottleRollDescription4", "bottleRollDescription5", "bottleRollDescription6", "bottleRollDescription7"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Might", -2], 0, 0],
+      ["roll", ["statChange", "Speed", -2], 0, 0],
+      ["roll", ["statChange", "Sanity", -2], 0, 0],
+      ["roll", ["statChange", "Knowledge", -2], 0, 0],
+      ["roll", ["statChange", "Might", -2], 1, 1],
+      ["roll", ["statChange", "Speed", -2], 1, 1],
+      ["roll", ["statChange", "Knowledge", -2], 2, 2],
+      ["roll", ["statChange", "Sanity", -2], 2, 2],
+      ["roll", ["statChange", "Might", -1], 3, 3],
+      ["roll", ["statChange", "Knowledge", 1], 3, 3],
+      ["roll", ["statChange", "Knowledge", 2], 4, 4],
+      ["roll", ["statChange", "Sanity", 2], 4, 4],
+      ["roll", ["statChange", "Might", 2], 5, 5],
+      ["roll", ["statChange", "Speed", 2], 5, 5],
+      ["roll", ["statChange", "Might", 2], 6, 6],
+      ["roll", ["statChange", "Speed", 2], 6, 6],
+      ["roll", ["statChange", "Sanity", 2], 6, 6],
+      ["roll", ["statChange", "Knowledge", 2], 6, 6]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"puzzleBoxName",
+    "Header":"puzzleBoxHeader",
+    "Description":"puzzleBoxDescription",
+    "Roll_Type": "KNOWLEDGE",
+    "Roll_Value":["0-5", "6+"],
+    "Roll_Description":["puzzleBoxRollDescription1", "puzzleBoxRollDescription2"],
+    "Apply_Game_Rules": [
+      ["roll", ["draw", "ITEM", 2], 6]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"bellName",
+    "Header":"bellHeader",
+    "Description":"bellDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":["0-4", "5+"],
+    "Roll_Description":["bellRollDescription1", "bellRollDescription2"],
+    "Apply_Game_Rules": [
+      ["statChange", "Sanity", 1]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Sanity", -1]
+    ]
+  },
+  {
+    "Name":"darkDiceName",
+    "Header":"darkDiceHeader",
+    "Description":"darkDiceDescription",
+    "Roll_Type": "THREE",
+    "Roll_Value":["0", "1", "2-3", "4-5", "6"],
+    "Roll_Description":["darkDiceRollDescription1", "darkDiceRollDescription2", "darkDiceRollDescription3", "darkDiceRollDescription5", "darkDiceRollDescription7"],
+    "Apply_Game_Rules": [
+      ["roll", ["minStat", "SPEED"], 0, 0],
+      ["roll", ["minStat", "MIGHT"], 0, 0],
+      ["roll", ["minStat", "SANITY"], 0, 0],
+      ["roll", ["minStat", "KNOWLEDGE"], 0, 0],
+      ["roll", ["draw", "EVENT", 1], 1, 1],
+      ["roll", ["statChange", "Sanity", 1], 2, 3],
+      ["roll", ["statChange", "Speed", 1], 4, 5],
+      ["roll", ["move"], 6, 6]
+    ],
+    "Remove_Game_Rules": []
+  }
+]

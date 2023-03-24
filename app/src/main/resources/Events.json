@@ -1,0 +1,340 @@
+[
+  {
+    "Name":"skeletonsName",
+    "Header":"skeletonsHeader",
+    "Description":"skeletonsDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":["0-4", "5+"],
+    "Roll_Description":["skeletonsRollDesc1", "skeletonsRollDesc2"],
+    "Apply_Game_Rules": [
+      ["placeToken", "skeletonsTokenName"]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"mysticSlideName",
+    "Header":"mysticSlideHeader",
+    "Description":"mysticSlideDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":["0-4", "5+"],
+    "Roll_Description":["mysticSlideRollDesc1", "mysticSlideRollDesc2"],
+    "Apply_Game_Rules": [
+      ["placeToken", "slideTokenName"]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"creepyCrawliesName",
+    "Header":"creepyCrawliesHeader",
+    "Description":"creepyCrawliesDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0", "1-4", "5+"],
+    "Roll_Description":["creepyCrawliesRollDesc1", "creepyCrawliesRollDesc2", "creepyCrawliesRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 1], 5],
+      ["roll", ["statChange", "Sanity", -1], 1, 4],
+      ["roll", ["statChange", "Sanity", -2], 0, 0]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"imageInTheMirrorName",
+    "Header":"imageInTheMirrorHeader",
+    "Description":"imageInTheMirrorDesc",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["draw", "ITEM", 1]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"bloodyVisionName",
+    "Header":"bloodyVisionHeader",
+    "Description":"bloodyVisionDescription",
+    "Roll_Value":["0-1", "2-3", "4+"],
+    "Roll_Type": "SANITY",
+    "Roll_Description":["bloodyVisionRollDesc1", "bloodyVisionRollDesc2", "bloodyVisionRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", -2], 0, 1],
+      ["roll", ["statChange", "Sanity", -1], 2, 3],
+      ["roll", ["statChange", "Sanity", 1], 4]],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"theWallsName",
+    "Header":"theWallsHeader",
+    "Description":"theWallsDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["move", "entrance_hall"]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"jonahsTurnName",
+    "Header":"jonahsTurnHeader",
+    "Description":"jonahsTurnDescription",
+    "Roll_Type": "ONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 1], 0, 2],
+      ["roll", ["statChange", "Sanity", 1], 3]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"rottenName",
+    "Header":"rottenHeader",
+    "Description":"rottenDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0", "1", "2-4", "5+"],
+    "Roll_Description":["rottenRollDesc1", "rottenRollDesc2", "rottenRollDesc3", "rottenRollDesc4"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 1], 5],
+      ["roll", ["statChange", "Might", -1], 2, 4],
+      ["roll", ["statChange", "Speed", -1], 1, 1],
+      ["roll", ["statChange", "Might", -1], 1, 1],
+      ["roll", ["statChange", "Speed", -1], 0, 0],
+      ["roll", ["statChange", "Might", -1], 0, 0],
+      ["roll", ["statChange", "Knowledge", -1], 0, 0],
+      ["roll", ["statChange", "Sanity", -1], 0, 0]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"hideousShriekName",
+    "Header":"hideousShriekHeader",
+    "Description":"hideousShriekDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0", "1-3", "4+"],
+    "Roll_Description":["hideousShriekRollDesc1", "hideousShriekRollDesc2", "hideousShriekRollDesc3"],
+    "Apply_Game_Rules": [
+      ["allPlayer", ["roll", ["statChange", "Sanity", -1], 1, 3]],
+      ["allPlayer", ["roll", ["statChange", "Sanity", -2], 0, 0]]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"theVoiceName",
+    "Header":"theVoiceHeader",
+    "Description":"theVoiceDescription",
+    "Roll_Type": "KNOWLEDGE",
+    "Roll_Value":["0-3", "4+"],
+    "Roll_Description":["theVoiceRollDesc1", "theVoiceRollDesc2"],
+    "Apply_Game_Rules": [
+      ["roll", ["draw", "ITEM", 1], 4]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"groundskeeperName",
+    "Header":"groundskeeperHeader",
+    "Description":"groundskeeperDescription",
+    "Roll_Type": "KNOWLEDGE",
+    "Roll_Value":["0-3", "4+"],
+    "Roll_Description":["groundskeeperRollDesc1", "groundskeeperRollDesc2"],
+    "Apply_Game_Rules": [
+      ["roll", ["draw", "ITEM", 1], 4],
+      ["roll", ["statChange", "Might", -1], 0, 3]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"somethingHiddenName",
+    "Header":"somethingHiddenHeader",
+    "Description":"somethingHiddenDescription",
+    "Roll_Type": "KNOWLEDGE",
+    "Roll_Value":["0-3", "4+"],
+    "Roll_Description":["somethingHiddenRollDesc1", "somethingHiddenRollDesc2"],
+    "Apply_Game_Rules": [
+      ["roll", ["draw", "ITEM", 1], 4],
+      ["roll", ["statChange", "Sanity", -1], 0, 3]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"mistFromTheWallsName",
+    "Header":"mistFromTheWallsHeader",
+    "Description":"mistFromTheWallsDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0", "1-3", "4+"],
+    "Roll_Description":["mistFromTheWallsRollDesc1", "mistFromTheWallsRollDesc2", "mistFromTheWallsRollDesc3"],
+    "Apply_Game_Rules": [
+      ["allPlayer", ["roll", ["statChange", "Sanity", -1], 1, 3]],
+      ["allPlayer", ["roll", ["statChange", "Sanity", -2], 0, 0]]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"footstepsName",
+    "Header":"footstepsHeader",
+    "Description":"footstepsDescription",
+    "Roll_Type": "ONE",
+    "Roll_Value":["0", "1", "2", "3", "4"],
+    "Roll_Description":["footstepsRollDesc1", "footstepsRollDesc2", "footstepsRollDesc3", "footstepsRollDesc4", "footstepsRollDesc5"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Might", 2], 4],
+      ["roll", ["statChange", "Sanity", 1], 3, 3],
+      ["roll", ["statChange", "Sanity", -1], 2, 2],
+      ["roll", ["statChange", "Speed", -1], 1, 1],
+      ["roll", ["allPlayer", ["statChange", "Might", -1]], 0, 0]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"disquietingSoundsName",
+    "Header":"disquietingSoundsHeader",
+    "Description":"disquietingSoundsDescription",
+    "Roll_Type": "SIX",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", -1], 0, 2],
+      ["roll", ["statChange", "Sanity", 1], 3]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"funeralName",
+    "Header":"funeralHeader",
+    "Description":"funeralDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0-1", "2-3", "4+"],
+    "Roll_Description":["funeralRollDesc1", "funeralRollDesc2", "funeralRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 1], 4],
+      ["roll", ["statChange", "Sanity", -1], 2, 3],
+      ["roll", ["statChange", "Sanity", -1], 0, 1],
+      ["roll", ["statChange", "Might", -1], 0, 1]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"closetDoorName",
+    "Header":"closetDoorHeader",
+    "Description":"closetDoorDescription",
+    "Roll_Type": "TWO",
+    "Roll_Value":["0-1", "2", "3+"],
+    "Roll_Description":["closetDoorRollDesc1", "closetDoorRollDesc2", "closetDoorRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["draw", "ITEM", 1], 4],
+      ["roll", ["draw", "EVENT", 1], 0, 3]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"phoneCallName",
+    "Header":"phoneCallHeader",
+    "Description":"phoneCallDescription",
+    "Roll_Type": "TWO",
+    "Roll_Value":["0", "1-2", "3", "4"],
+    "Roll_Description":["phoneCallRollDesc1", "phoneCallRollDesc2", "phoneCallRollDesc3", "phoneCallRollDesc4"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 1], 4],
+      ["roll", ["statChange", "Knowledge", 1], 3, 3],
+      ["roll", ["statChange", "Sanity", -1], 1, 2],
+      ["roll", ["statChange", "Might", -2], 0, 0]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"silenceName",
+    "Header":"silenceHeader",
+    "Description":"silenceDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0", "1-3", "4+"],
+    "Roll_Description":["silenceRollDesc1", "silenceRollDesc2", "silenceRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", -1], 1, 3],
+      ["roll", ["statChange", "Sanity", 2], 0, 0]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"burningManName",
+    "Header":"burningManHeader",
+    "Description":"burningManDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0-1", "2-3", "4+"],
+    "Roll_Description":["burningManRollDesc1", "burningManRollDesc2", "burningManRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 1], 4],
+      ["roll", ["move", "entrance_hall"], 2, 3],
+      ["roll", ["statChange", "Sanity", -1], 0, 1],
+      ["roll", ["statChange", "Might", -1], 0, 1]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"nightViewName",
+    "Header":"nightViewHeader",
+    "Description":"nightViewDescription",
+    "Roll_Type": "KNOWLEDGE",
+    "Roll_Value":["0-4", "5+"],
+    "Roll_Description":["nightViewRollDesc1", "nightViewRollDesc2"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Knowledge", 1], 5]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"somethingSlimyName",
+    "Header":"somethingSlimyHeader",
+    "Description":"somethingSlimyDescription",
+    "Roll_Type": "SPEED",
+    "Roll_Value":["0", "1-3", "4+"],
+    "Roll_Description":["somethingSlimyRollDesc1", "somethingSlimyRollDesc2", "somethingSlimyRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Speed", 1], 4],
+      ["roll", ["statChange", "Might", -1], 1, 3],
+      ["roll", ["statChange", "Might", -1], 0, 0],
+      ["roll", ["statChange", "Speed", -1], 0, 0]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"spiderName",
+    "Header":"spiderHeader",
+    "Description":"spiderDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0", "1-3", "4+"],
+    "Roll_Description":["spiderRollDesc1", "spiderRollDesc2", "spiderRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 1], 4],
+      ["roll", ["statChange", "Might", -1], 1, 3],
+      ["roll", ["statChange", "Might", -2], 0, 0]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"shriekingWindName",
+    "Header":"shriekingWindHeader",
+    "Description":"shriekingWindDescription",
+    "Roll_Type": "MIGHT",
+    "Roll_Value":["0","1-2","3-4","5+"],
+    "Roll_Description":["shriekingWindRollDesc1", "shriekingWindRollDesc2", "shriekingWindRollDesc3", "shriekingWindRollDesc4"],
+    "Apply_Game_Rules": [
+      ["allPlayer", ["roll", ["statChange", "Might", -1], 3, 4]],
+      ["allPlayer", ["roll", ["statChange", "Sanity", -1], 1, 2]],
+      ["allPlayer", ["roll", ["statChange", "Might", -2], 0, 0]]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"lockedSafeName",
+    "Header":"lockedSafeHeader",
+    "Description":"lockedSafeDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":["0-1", "2-4", "5+"],
+    "Roll_Description":["lockedSafeRollDesc1", "lockedSafeRollDesc2", "lockedSafeRollDesc3"],
+    "Apply_Game_Rules": [
+      ["placeToken", "safeTokenName"]
+    ],
+    "Remove_Game_Rules": []
+  }
+]

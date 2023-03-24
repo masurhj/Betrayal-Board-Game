@@ -1,0 +1,170 @@
+[
+  {
+    "Name":"ringName",
+    "Header":"ringHeader",
+    "Description":"ringDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Sanity", 1]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Sanity", -1]
+    ]
+  },
+  {
+    "Name":"bookName",
+    "Header":"bookHeader",
+    "Description":"bookDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Knowledge", 2]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Knowledge", -2]
+    ]
+  },
+  {
+    "Name":"maskName",
+    "Header":"maskHeader",
+    "Description":"maskDescription",
+    "Roll_Type": "SANITY",
+    "Roll_Value":["0-3", "4+"],
+    "Roll_Description":["maskRollDesc1", "maskRollDesc2"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", 2], 0, 3],
+      ["roll", ["statChange", "Knowledge", -2], 0, 3],
+      ["roll", ["statChange", "Sanity", -2], 4, 8],
+      ["roll", ["statChange", "Knowledge", 2], 4, 8]
+
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"madmanName",
+    "Header":"madmanHeader",
+    "Description":"madmanDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Might", 2],
+      ["statChange", "Sanity", -1]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Might", -2],
+      ["statChange", "Sanity", 1]
+    ]
+  },
+  {
+    "Name":"medallionName",
+    "Header":"medallionHeader",
+    "Description":"medallionDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Might", 1]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Might", -1]
+    ]
+  },
+  {
+    "Name":"holySymbolName",
+    "Header":"holySymbolHeader",
+    "Description":"holySymbolDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Sanity", 2]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Sanity", -2]
+    ]
+  },
+  {
+    "Name":"girlName",
+    "Header":"girlHeader",
+    "Description":"girlDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Sanity", 1],
+      ["statChange", "Sanity", 1]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Sanity", -1],
+      ["statChange", "Sanity", -1]
+    ]
+  },
+  {
+    "Name":"biteName",
+    "Header":"biteHeader",
+    "Description":"biteDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Might", -1]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"crystalBallName",
+    "Header":"crystalBallHeader",
+    "Description":"crystalBallDescription",
+    "Roll_Type": "KNOWLEDGE",
+    "Roll_Value":["0", "1-3", "4+"],
+    "Roll_Description":["crystalBallRollDesc1","crystalBallRollDesc2","crystalBallRollDesc3"],
+    "Apply_Game_Rules": [
+      ["roll", ["statChange", "Sanity", -2], 0, 0],
+      ["roll", ["statChange", "Sanity", -1], 1, 3],
+      ["roll", ["statChange", "Sanity", 1], 4, 8]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"bearTrapName",
+    "Header":"bearTrapHeader",
+    "Description":"bearTrapDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Speed", -2]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"glassEyeName",
+    "Header":"glassEyeHeader",
+    "Description":"glassEyeDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Knowledge", 2]
+    ],
+    "Remove_Game_Rules": []
+  },
+  {
+    "Name":"bentSpoonName",
+    "Header":"bentSpoonHeader",
+    "Description":"bentSpoonDescription",
+    "Roll_Type": "NONE",
+    "Roll_Value":[],
+    "Roll_Description":[],
+    "Apply_Game_Rules": [
+      ["statChange", "Sanity", 2]
+    ],
+    "Remove_Game_Rules": [
+      ["statChange", "Sanity", -2]
+    ]
+  }
+]
